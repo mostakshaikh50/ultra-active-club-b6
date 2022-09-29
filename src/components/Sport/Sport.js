@@ -16,14 +16,14 @@ const Sport = () => {
     }, []);
 
     const handleAddToCart =(sport) =>{
-        console.log(sport);
+        
         const newCart = [...cart, sport];
         setCart(newCart);
     }
 
     return (
         <div className='sports-container'>            
-           {/* <p>Select your favorite bating style</p> */}
+          
            <div className="bating-style-container">
                 
                 {

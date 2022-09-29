@@ -1,0 +1,10 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+
+.exercise-details p{
+    margin-top: 20px;
+    line-height: 20px;
+}
+
