@@ -6,9 +6,9 @@ const Header = () => {
     return (
 
             <nav className='header'>
-                <img src={logo} alt="" srcset="" />
+                <img src={logo} alt="" />
                 <div>
-                   <h1 class="font-bold text-blue-600">Fantasy League Cricket Club</h1>                   
+                   <h1 className="font-bold text-blue-600">Fantasy League Cricket Club</h1>                   
                 </div>
                 
             </nav>
