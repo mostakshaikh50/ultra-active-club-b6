@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './components/Header/Header';
+import Sport from './components/Sport/Sport';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Fantasy League cricket Club</h1>
+    <div>
+       <Header></Header>
+      <Sport></Sport>
     </div>
   );
 }
