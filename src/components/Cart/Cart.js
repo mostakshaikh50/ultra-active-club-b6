@@ -1,24 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 import myPic from '../../images/mostak.jpg'
 import './Cart.css'
 
 const Cart = (props) => {
     
     const { cart } = props;
-
+    
+    if(!localStorage.getItem("breakTimeStorage")){
+        localStorage.setItem("breakTimeStorage", 0);
+    }
+    
    let totalTime = 0;
    for(const requiredTime of cart){
        totalTime = totalTime + requiredTime.time;
        
    }
+
+
+   const [message, setMessage] = useState('');
+ 
+   const handleClick = event => {
    
-   const handleClick =( event) => {
-    
-    const theValue = event.currentTarget.value;
-    console.log("the value:", theValue);
-    const theText = event.currentTarget.textContent;
-    console.log("the text: ", theText);
+     setMessage(event.target.value);
+     
+     localStorage.setItem("breakTimeStorage", event.target.value);
    };
+
+
+
+
+
+
+
 
 
     return (
@@ -53,17 +66,15 @@ const Cart = (props) => {
                 <div className='add-break'>
                     <p className='break-title'>Add A Break</p>
                     
-                        {/* <button className='break-time'> */}
-                        <div className='break-time'>
-                        <button onClick={handleClick}>10<span>S</span></button>
-                        <button onClick={handleClick}>20<span>S</span></button>
-                        <button onClick={handleClick}>30<span>S</span></button>
-                        <button onClick={handleClick}>40<span>S</span></button>
-                        <button onClick={handleClick}>50<span>S</span></button>
-                        {/* <button value="this is the value" onClick={handleClick}>60</button> */}
-                        </div>                     
                         
-                     
+                        <div className='break-time'>
+                        <button value="10" onClick={handleClick}>10<span>S</span></button>
+                        <button value="20" onClick={handleClick}>20<span>S</span></button>
+                        <button value="30" onClick={handleClick}>30<span>S</span></button>
+                        <button value="40" onClick={handleClick}>40<span>S</span></button>
+                        <button value="50" onClick={handleClick}>50<span>S</span></button>
+                        
+                        </div>                     
                 </div>
 
                 <div className=''>
@@ -72,7 +83,7 @@ const Cart = (props) => {
                        
                         <p>Exercise Time : {totalTime} <span>Sec</span></p>
                         
-                        <p>Break Time : {}</p>
+                        <p>Break Time : {localStorage.getItem("breakTimeStorage")}</p>
                     </div>
                     
                 </div>
