@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import myPic from '../../images/mostak.jpg'
+import Toastify from '../Toastify/Toastify';
 import './Cart.css'
 
 const Cart = (props) => {
@@ -36,7 +37,7 @@ const Cart = (props) => {
 
     return (
         <div className='cart'>
-                 <p>selected item: {cart.length}</p>
+                 
                 <div className='my-data'>
                     <div><img src={myPic} alt=""/></div>
                     
@@ -86,6 +87,10 @@ const Cart = (props) => {
                         <p>Break Time : {localStorage.getItem("breakTimeStorage")}</p>
                     </div>
                     
+                </div>
+
+                <div>                  
+                    <Toastify></Toastify>
                 </div>
         </div>
     );
