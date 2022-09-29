@@ -1,7 +1,7 @@
 [
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "category": "Men's Sneaker",
+    "description": "A forward defensive shot is a deliberate shot that aims to prevent the ball from hitting the wicket or the player's pads.",
     "name": "Forward Defence",
     "time": "20s",
     "price": 420,
@@ -14,8 +14,8 @@
   },
   {
     "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
-    "category": "Men's Sneaker",
-    "name": "Deffensive",
+    "description": "The on drive is played by striking the ball off the front foot towards mid-on. An overpitched delivery on the leg stump ",
+    "name": "On drive",
     "time": "30s",
     "price": 196,
     "stock": 19,
@@ -27,7 +27,7 @@
   },
   {
     "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
-    "category": "Men's Sneaker",
+    "description": "The cover drive in cricket is the act of stroking the ball through the covers with well-timed wristwork and conventional movement of the front foot toward",
     "name": "Cover Drive ",
     "time": "50s",
     "price": 245,
@@ -40,8 +40,8 @@
   },
   {
     "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
-    "category": "Men's Sneaker",
-    "name": "Off Side SHot",
+    "description": "The reverse sweep is a great way to manipulate where the opposition puts the fielders, as well as a good boundary option. As with the sweep shot your head needs..",
+    "name": "Reverse Swip",
     "time": "25s",
     "price": 229,
     "stock": 10,
@@ -53,8 +53,8 @@
   },
   {
     "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
-    "category": "Men's Sneaker",
-    "name": "Leg Cut",
+    "description": " Hook shot is played to balls which are over shoulder high. It is played behind the square leg fieldsman and around fine leg area.",
+    "name": "Hook Shot",
     "time": "40s",
     "price": 287,
     "stock": 11,
@@ -66,8 +66,8 @@
   },
   {
     "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
-    "category": "Men's Sneaker",
-    "name": "Full Shot",
+    "description": "The square cut allows batsmen to free their arms and hit the ball with a cross bat, enabling them to get plenty of power on the shot. ",
+    "name": "Square Cut",
     "time": "28s",
     "price": 138,
     "stock": 19,
@@ -79,7 +79,7 @@
   },
   {
     "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
-    "category": "Men's Sneaker",
+    "description": "A switch hit is a modern cricket shot. A switch hit involves effectively changing from a right-hander to a left-hander just before the ball is delivered ",
     "name": "Swift hit",
     "time": "35s",
     "price": 226,
@@ -92,8 +92,8 @@
   },
   {
     "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
-    "category": "Men's Sneaker",
-    "name": "Dil Scoop Shot",
+    "description": "It was in Zimbabwe, over 17 years ago, that Tillakaratne Dilshan broke through in international cricket.",
+    "name": "Dil Scoop",
     "time": "10s",
     "price": 319,
     "stock": 7,
@@ -105,8 +105,8 @@
   },
   {
     "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
-    "category": "Men's Sneaker",
-    "name": "Fine-Leg Shot",
+    "description": "The leg glance, also called the hip glance, is a fine straight-batted shot played at a ball directed to the leg side. Heres how you do it!",
+    "name": "Fine-Leg",
     "time": "45s",
     "price": 260,
     "stock": 4,

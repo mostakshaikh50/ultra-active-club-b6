@@ -13,3 +13,41 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+
+.my-data{
+    display: flex;
+}
+.my-data img{
+    width: 80px;
+    height: 80px;
+    border-radius: 7px;
+
+}
+.my-location{
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.my-info{
+    display: flex;
+    gap: 15%;
+    margin-top: 20px;
+    color: black;
+    background-color: rgb(215, 210, 203);
+    padding: 20px;
+}
+
+.break-title{
+    color: black;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.break-time{
+    display: flex;
+    gap: 20%;
+    color: black;
+    background-color: azure;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+}

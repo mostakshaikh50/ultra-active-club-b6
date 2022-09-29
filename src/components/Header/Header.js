@@ -8,7 +8,7 @@ const Header = () => {
             <nav className='header'>
                 <img src={logo} alt="" />
                 <div>
-                   <h1 className="font-bold text-blue-600">Fantasy League Cricket Club</h1>                   
+                   <h1 className="text-3xl font-bold text-blue-600">Fantasy League Cricket Club</h1>                   
                 </div>
                 
             </nav>
